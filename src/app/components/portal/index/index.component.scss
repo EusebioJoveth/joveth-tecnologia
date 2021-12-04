@@ -1,0 +1,27 @@
+.example-container {
+  width: 100%;
+  height: 100%;
+}
+
+.menu{
+  width: 250px;
+  background-color: rgb(205, 207, 207);
+  border: none;
+}
+
+.conteudo{
+  background-color: #FFF;
+}
+
+.example-card {
+  max-width: 250px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.titulo{
+  font-size: medium;
+}
