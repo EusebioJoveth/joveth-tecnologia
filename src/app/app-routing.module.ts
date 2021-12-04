@@ -7,9 +7,10 @@ import { ContactoComponent } from './components/portal/contacto/contacto.compone
 import { RegisterComponent } from './components/portal/register/register.component';
 import { LoginComponent } from './components/portal/login/login.component';
 import { ClientComponent } from './components/portal/client/client.component';
+import { InitComponent } from './components/portal/init/init.component';
 
 const routes: Routes = [
-  { path: '', component: IndexComponent},
+  { path: 'inicio', component: InitComponent},
   { path: 'about', component: AboutComponent},
   { path: 'service', component: ServiiceComponent},
   { path: 'contact', component: ContactoComponent},

@@ -12,6 +12,7 @@ import { ContactoComponent } from './components/portal/contacto/contacto.compone
 import { LoginComponent } from './components/portal/login/login.component';
 import { RegisterComponent } from './components/portal/register/register.component';
 import { ClientComponent } from './components/portal/client/client.component';
+import { InitComponent } from './components/portal/init/init.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ClientComponent } from './components/portal/client/client.component';
     ContactoComponent,
     LoginComponent,
     RegisterComponent,
-    ClientComponent
+    ClientComponent,
+    InitComponent
   ],
   imports: [
     BrowserModule,
