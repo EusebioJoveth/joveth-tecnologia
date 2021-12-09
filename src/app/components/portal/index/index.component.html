@@ -2,18 +2,20 @@
   <mat-drawer mode="side" opened class="menu">
 
     <mat-card class="example-card">
-      <mat-card-header>
+      <mat-card-header class="logo">
         <div mat-card-avatar class="example-header-image"></div>
         <mat-card-title class="titulo">JOVETHTECNOLOGIA</mat-card-title>
       </mat-card-header>
       <mat-card-actions>
-        <button mat-button>FACEBOOK</button>
-        <button mat-button>WHATSAPP</button>
-        <button mat-button>INSTAGRAM</button>
+        <img src="assets/icons/facebook.png" alt="" class="img-tamanho">
+        <img src="assets/icons/whatsapp.png" alt="" class="img-tamanho">
+        <img src="assets/icons/instagram.png" alt="" class="img-tamanho">
+        <img src="assets/icons/linkedin.png" alt="" class="img-tamanho">
+        <img src="assets/icons/twitter.png" alt="" class="img-tamanho">
       </mat-card-actions>
     </mat-card>
 
-    <mat-list role="list">
+    <mat-list role="list" class="color-link">
       <mat-list-item role="listitem" [routerLink]="['/inicio']">Início</mat-list-item>
       <mat-list-item role="listitem" [routerLink]="['/about']">Quem Somos</mat-list-item>
       <mat-list-item role="listitem" [routerLink]="['/service']">Nossos Serviços</mat-list-item>

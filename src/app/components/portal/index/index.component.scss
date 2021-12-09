@@ -5,8 +5,17 @@
 
 .menu{
   width: 250px;
-  background-color: rgb(205, 207, 207);
+  background-color:#e1bee7;
   border: none;
+
+}
+
+.color-link > mat-list-item{
+  color: #004d40;
+  font-weight: 400;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
 }
 
 .conteudo{
@@ -15,6 +24,24 @@
 
 .example-card {
   max-width: 250px;
+  background-color:#ab47bc;
+}
+
+.example-card > .img-tamanho{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.logo{
+  margin-bottom: 8px;
+}
+
+.img-tamanho{
+  width: 30px;
+  height: 30px;
+  margin: 4px;
 }
 
 .example-header-image {
