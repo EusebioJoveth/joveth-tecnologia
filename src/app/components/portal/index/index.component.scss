@@ -25,6 +25,10 @@
 .example-card {
   max-width: 250px;
   background-color:#ab47bc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .example-card > .img-tamanho{
@@ -36,6 +40,9 @@
 
 .logo{
   margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .img-tamanho{
@@ -51,4 +58,5 @@
 
 .titulo{
   font-size: medium;
+
 }
